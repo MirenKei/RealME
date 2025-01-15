@@ -1813,3 +1813,25 @@ body.is-preload #footer {
     justify-content: space-evenly;
     text-align: center;
 }
+
+.profile {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    margin-block: 2rem;
+    position: relative;
+    flex: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.profile img {
+    height: 200px; /* Larger than container to zoom in */
+    width: 200px; /* Maintain aspect ratio */
+    object-fit: cover;
+    position: absolute;
+    top: -40px;
+    left: -35px;
+}
