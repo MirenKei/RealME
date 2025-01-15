@@ -1835,3 +1835,42 @@ body.is-preload #footer {
     top: -80px;
     left: -100px;
 }
+
+/* Studio and Map */
+
+/* .studio {
+    background-color: #2f2f2f;
+    color: #ccc !important;
+    font-family: "Nunito", sans-serif;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5% 5%;
+    display: flex;
+    justify-content: center;
+   
+} */
+
+.studio_card {
+    width: 100%;
+    /* border-radius: 10px; */
+    background-color: #2f2f2f;
+    color: #ccc !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 5%;
+    padding-block: 2.5%;
+
+    flex-grow: 1;
+}
+
+.studio_card p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.studio-map {
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid var(--primary-400);
+}
