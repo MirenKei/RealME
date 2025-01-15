@@ -1828,10 +1828,10 @@ body.is-preload #footer {
 }
 
 .profile img {
-    height: 200px; /* Larger than container to zoom in */
-    width: 200px; /* Maintain aspect ratio */
+    height: 320px; /* Larger than container to zoom in */
+    width: 320px; /* Maintain aspect ratio */
     object-fit: cover;
     position: absolute;
-    top: -40px;
-    left: -35px;
+    top: -80px;
+    left: -100px;
 }
